@@ -1,0 +1,16 @@
+{
+  "name": "webdriverio",
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js",
+    "wdio:chrome": "wdio run ./wdio.conf.chrome.js",
+    "wdio:firefox": "wdio run ./wdio.conf.firefox.js"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^8.27.1",
+    "@wdio/local-runner": "^8.27.0",
+    "@wdio/mocha-framework": "^8.27.0",
+    "@wdio/spec-reporter": "^8.27.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-wdio": "^8.24.12"
+  }
+}

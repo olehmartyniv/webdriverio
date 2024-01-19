@@ -1,0 +1,24 @@
+{
+  "computeEngine": {
+    "operatingSystem": [
+      "Operating System / Software",
+      "Free: Debian, CentOS, CoreOS, Ubuntu or BYOL (Bring Your Own License)"
+    ],
+    "provisioningModel": ["Provisioning model", "Regular"],
+    "series": ["Series", "N1"],
+    "machineType": ["Machine type", "n1-standard-8 (vCPUs: 8, RAM: 30GB)"],
+    "gpuType": ["GPU type", "NVIDIA Tesla V100"],
+    "gpuNumber": ["Number of GPUs", "1"],
+    "localSDD": ["Local SSD", "2x375 GB"],
+    "region": ["Datacenter location", "Frankfurt (europe-west3)"],
+    "term": ["Committed usage", "1 Year"]
+  },
+  "estimateCost": {
+    "region": "Frankfurt",
+    "term": "1 Year",
+    "provisioningModel": "Regular",
+    "machineType": "n1-standard-8",
+    "localSSD": "2x375 GiB",
+    "cost": "USD 1,081.20"
+  }
+}

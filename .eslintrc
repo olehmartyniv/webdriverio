@@ -1,0 +1,16 @@
+{
+  "plugins": ["wdio"],
+  "extends": ["eslint:recommended", "plugin:wdio/recommended"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2020": true,
+    "mocha": true
+  },
+  "rules": {
+    "eqeqeq": "off",
+    "curly": "error",
+    "prefer-const": "error",
+    "require-await": "error"
+  }
+}
